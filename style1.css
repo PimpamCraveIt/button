@@ -10,10 +10,12 @@ input[type=button], input[type=submit], input[type=reset], button,
 	font-size: 28px;
 	cursor: pointer;
 	background-color: #ff8c00;
-	background-color: linear-gradient(top, #ff8c00 0%, #ff8c00 100%);
-	background-color: -moz-linear-gradient(top, #ff8c00 0%, #ff8c00 100%);
-	background-color: -webkit-linear-gradient(top, #ff8c00 0%, #ff8c00 100%);
-	background-color: -o-linear-gradient(top, #ff8c00 0%, #ff8c00 100%);
+ background-color: #E6264B; background-image: -webkit-gradient(linear, left top, left bottom, from(#E6264B), to(#fad522));
+ background-image: -webkit-linear-gradient(top, #E6264B, #fad522);
+ background-image: -moz-linear-gradient(top, #E6264B, #fad522);
+ background-image: -ms-linear-gradient(top, #E6264B, #fad522);
+ background-image: -o-linear-gradient(top, #E6264B, #fad522);
+ background-image: linear-gradient(to bottom, #E6264B, #fad522)
 	border-radius: 55px;
 	-moz-border-radius: 55px;
 	-webkit-border-radius: 55px;
